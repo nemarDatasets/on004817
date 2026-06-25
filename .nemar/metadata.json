@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "EEG-attention-rsvp-exp2",
-  "description": "EEG dataset from Experiment 2 of Grootswagers et al. (2021) investigating neural dynamics of task-relevant information prioritization. Participants performed a rapid serial visual presentation (RSVP) task with small objects embedded in large letters while EEG was recorded. This dataset provides insights into how the brain prioritizes behaviorally relevant stimuli during visual attention tasks.",
+  "description": "EEG dataset from Experiment 2 of Grootswagers et al. (2021) investigating neural dynamics of task-relevant information prioritization. Participants performed a rapid serial visual presentation (RSVP) task with small objects embedded in large letters while EEG was recorded. This dataset examines how the brain prioritizes and processes behaviorally relevant stimuli in visual attention tasks.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -41,9 +41,7 @@
   },
   "keywords": [
     {
-      "term": "EEG",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "EEG"
     },
     {
       "term": "Attention",
@@ -53,7 +51,7 @@
     {
       "term": "Visual Perception",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D014794"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
     },
     {
       "term": "rapid serial visual presentation"
@@ -63,11 +61,6 @@
     },
     {
       "term": "neural dynamics"
-    },
-    {
-      "term": "Visual Attention",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
     }
   ],
   "related_identifiers": [
