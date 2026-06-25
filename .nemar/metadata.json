@@ -1,30 +1,122 @@
 {
   "version": "2.0",
-  "dataset_id": "on004817",
-  "source": "openneuro",
-  "source_id": "ds004817",
+  "pipeline_stage": "enriched",
   "title": "EEG-attention-rsvp-exp2",
-  "authors": {
-    "Grootswagers, Tijl": {},
-    "Robinson, Amanda": {},
-    "Shatek, Sofia": {},
-    "Carlson, Thomas": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Grootswagers, Tijl": {
+      "orcid": "0000-0002-7961-5002",
+      "affiliations": [
+        {
+          "name": "Western Sydney University"
+        }
+      ]
+    },
+    "Robinson, Amanda": {
+      "orcid": "0000-0002-7378-2803",
+      "affiliations": [
+        {
+          "name": "University of Sydney"
+        }
+      ]
+    },
+    "Shatek, Sofia": {
+      "orcid": "0000-0002-7787-1379",
+      "affiliations": [
+        {
+          "name": "University of Sydney"
+        }
+      ]
+    },
+    "Carlson, Thomas": {
+      "orcid": "0000-0002-3953-4195",
+      "affiliations": [
+        {
+          "name": "University of Sydney"
+        }
+      ]
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004817.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.51628/001c.21174",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004817",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004817",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.51628/001c.19129",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004816",
+      "identifier_type": "DOI",
+      "relation_type": "IsPartOf"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.0.2",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".csv",
+    ".eeg",
+    ".fdt",
+    ".json",
+    ".mat",
+    ".md",
+    ".set",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset contains electroencephalography (EEG) recordings from Experiment 2 of a study investigating neural mechanisms of attentional prioritization during rapid serial visual presentation (RSVP) tasks. Participants viewed sequences of small objects superimposed on large letters while EEG was recorded to examine how task-relevant information is prioritized in the brain. The dataset provides raw EEG data suitable for analyzing neural dynamics of selective attention and visual processing.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Attention",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
+    },
+    {
+      "term": "RSVP"
+    },
+    {
+      "term": "rapid serial visual presentation"
+    },
+    {
+      "term": "Visual Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
+    },
+    {
+      "term": "attentional prioritization"
+    },
+    {
+      "term": "selective attention"
+    }
+  ],
+  "source_hash": "ea3c2371fa00f45e9cf0c9da8b95959e27e756862aa2d2c558e96204d9b53a25"
 }
