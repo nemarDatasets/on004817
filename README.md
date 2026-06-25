@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004817-blue)](https://doi.org/10.82901/nemar.on004817)
+
 EEG data for Grootswagers et al 2021 experiment 2 (small objects on big letters)
 
 Grootswagers T., Robinson A.K., Shatek S.M., Carlson T.A. (2021). The neural dynamics underlying prioritisation of task-relevant information. Neurons, Behaviour, Data Analysis, and Theory, 5(1) https://doi.org/10.51628/001c.19129
