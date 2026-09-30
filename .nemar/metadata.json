@@ -1,8 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "EEG-attention-rsvp-exp2",
-  "description": "EEG dataset from Experiment 2 of Grootswagers et al. (2021) investigating neural dynamics of task-relevant information prioritization. Participants performed a rapid serial visual presentation (RSVP) task with small objects embedded in large letters while EEG was recorded. This dataset examines how the brain prioritizes and processes behaviorally relevant stimuli in visual attention tasks.",
+  "description": "Electroencephalography (EEG) recordings from experiment 2 of a study on how the brain prioritises task-relevant information during rapid serial visual presentation (RSVP). Participants viewed small objects overlaid on large letters, allowing neural dynamics of attended and unattended stimulus features to be compared. The dataset supports time-resolved decoding analyses of attention effects on visual object representations.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -44,38 +44,29 @@
       "term": "EEG"
     },
     {
-      "term": "Attention",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
-    },
-    {
-      "term": "Visual Perception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
+      "term": "attention"
     },
     {
       "term": "rapid serial visual presentation"
     },
     {
-      "term": "task-relevant information"
+      "term": "object recognition"
     },
     {
-      "term": "neural dynamics"
+      "term": "decoding"
+    },
+    {
+      "term": "task-relevant information"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.51628/001c.21174",
       "identifier_type": "DOI",
-      "relation_type": "References"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on004817",
-      "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004817",
+      "identifier": "https://github.com/nemarDatasets/on004817",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -93,6 +84,11 @@
       "identifier": "10.18112/openneuro.ds004817.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004817",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
@@ -101,7 +97,7 @@
     "eeg"
   ],
   "sizes": [
-    "27.2 GB (141 files)"
+    "25.33 GB (141 files)"
   ],
   "formats": [
     ".csv",
