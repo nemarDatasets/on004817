@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG-attention-rsvp-exp2",
-  "description": "Electroencephalography (EEG) recordings from experiment 2 of a study on how the brain prioritises task-relevant information during rapid serial visual presentation (RSVP). Participants viewed small objects overlaid on large letters, allowing neural dynamics of attended and unattended stimulus features to be compared. The dataset supports time-resolved decoding analyses of attention effects on visual object representations.",
+  "description": "EEG recordings from experiment 2 of a study on how the brain prioritises task-relevant information during rapid serial visual presentation (RSVP). In this experiment, small objects were presented on top of large letters. The data accompany Grootswagers et al. (2021) and support analyses of the temporal dynamics of attention-dependent neural representations.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -44,19 +44,18 @@
       "term": "EEG"
     },
     {
-      "term": "attention"
+      "term": "Attention",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
     },
     {
       "term": "rapid serial visual presentation"
     },
     {
-      "term": "object recognition"
-    },
-    {
-      "term": "decoding"
-    },
-    {
       "term": "task-relevant information"
+    },
+    {
+      "term": "object recognition"
     }
   ],
   "related_identifiers": [
@@ -81,14 +80,14 @@
       "relation_type": "IsPartOf"
     },
     {
-      "identifier": "10.18112/openneuro.ds004817.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsDerivedFrom"
-    },
-    {
       "identifier": "https://nemar.org/dataset/on004817",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004817.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
@@ -112,5 +111,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "b3abe4b522fe8574e141409a8f59fa00947891d4582c8daafc6177be16973465"
+  "source_hash": "cd1499d95511766d74cab83f6ec3dbb8552bfb85bd4300e32aa3e3ba50d26638"
 }
